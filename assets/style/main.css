@@ -172,7 +172,8 @@ body {
     background: #EFCA08;    
 }
 
-.line:nth-child(2) {
+.lineTwo {
+    margin: 20px 0;
     width: 43px;
     height: 2px;  
     background: #fff;
@@ -256,6 +257,44 @@ body {
     width: 320px;
     height: 620px;
 }
+
+/* ================  third-section end  ===============*/
+
+
+/* ================  fourth-section start  ===============*/
+
+.fourth-section {
+    padding: 78px 200px;    
+}
+
+.fourth-section h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 22px;  
+    color: #000000;
+}
+
+.center {
+    margin: 20px auto;
+}
+
+.fourth-section-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth-section-blog img:first-child,
+.fourth-section-blog img:last-child {
+    padding: 13px 9px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+
+
 
 
 
