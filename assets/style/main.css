@@ -290,8 +290,95 @@ body {
 .fourth-section-blog img:last-child {
     padding: 13px 9px;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid #999;
+    clip-path: circle(45px 45px 45px 45px);
 }
+
+
+.fifth-section {
+    padding: 54px 200px;
+    background-color: #F4F5F7;
+}
+
+.fifth-section-text {
+    text-align: center;
+}
+
+.fifth-section-text h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    color: #000000;    
+}
+
+.fifth-section-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;    
+}
+
+.fifth-section-comment {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-blog {
+    padding: 22px;
+    width: 350px;
+    height: 250px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 56% 76%, 49% 84%, 41% 76%, 0 75%);
+    background: #fff;
+    border-radius: 10px;
+}
+
+.comment-blog .text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #18191F;  
+}
+
+.comment-blog .span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #18191F;
+    opacity: 0.8;    
+}
+
+.fifth-section-user {
+    padding: 0 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-blog {
+    text-align: center;
+}
+
+.user-blog p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #18191F;    
+}
+
+.user-blog span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #474A57;    
+}
+
 
 
 
