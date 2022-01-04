@@ -497,8 +497,8 @@ footer a:first-child {
         height: 100vh;
         background: #2c3e50;
         position: fixed;
-        top: -120%;
-        left: 0;
+        top: 0;
+        left: -100%;
         transition: all 1.3s;
         z-index: 10000000;
     }
@@ -518,7 +518,7 @@ footer a:first-child {
     }
 
     #check:checked ~ ul {
-        top: 0;
+        left: 0;
     } 
 }
 
