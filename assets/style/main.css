@@ -553,7 +553,7 @@ footer a:first-child {
 @media (max-width: 400px) {
     .link {
         display: block;
-        width: 170px;
+        width: 190px;
     }
 
     .link a {
